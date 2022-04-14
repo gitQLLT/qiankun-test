@@ -64,6 +64,13 @@ registerMicroApps(
       loader,
       activeRule: '/vue3',
     },
+    {
+      name: 'testqian',
+      entry: '//localhost:9527',
+      container: '#subapp-viewport',
+      loader,
+      activeRule: '/testqian',
+    },
   ],
   {
     beforeLoad: [
